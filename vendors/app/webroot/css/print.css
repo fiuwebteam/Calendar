@@ -1,0 +1,81 @@
+/*
+Name: FIU-CAL - Print Stylesheet
+Description: General styles for FIU CAL's front end
+Version: 1.0
+Author: Fabian Alcantara
+*/
+
+
+/*
+  CSS TABLE OF CONTENTS - styles are organized by the following (alphabetical order for each section):
+  
+  @Backend . . . . . . . . . . . . Related to backend
+  @FORMS @INPUTS USER-INPUT . . .  Form, input, textarea styles
+  @Global . . . . . . . . . . . .  Global elements found throughout the site
+  @HEADER . . . . . . . . . . . .  Header related structure or Header block-level elements
+  @Headings . . . . . . . . . . .  h1,h2,h3,h4,h5 styles
+  @Horizontal-Rules . . . . . . .  hr styles
+  @Images . . . . . . . . . . . .  Image related styles
+  @Inline @Span . . . . . . . . .  Span styles any any inline styles
+  @Links  . . . . . . . . . . . .  Link styles
+  @Lists . . . . . . . . . . . . . List related styles
+  @Structure . . . . . . . . . . . Structure classes found throughout the site (divs)
+  @Table . . . . . . . . . . . . . Table related styles
+  @Typography . . . . . . . . . .  Type (font) related styles
+
+*/
+
+body {
+	background: white;
+	font-family:georgia,serif;
+	text-shadow:none;
+}
+
+.feedback,.featured, .header, .interface-cal, .social-tools, .topBar, .topBar2{
+	display: none;
+}
+
+a, .related a, table.eventsTable td.eTime, table.eventsTable td.eType, .headingBox ul.hActionsList a, .relatedCat{
+	color: black;
+	background: none;
+	text-shadow: none !important;
+}
+.boxes{
+	border-radius:none;
+	background:transparent;
+	
+}
+.content-container{
+	background: none;
+	-moz-box-shadow:none;
+	border:none;
+	width:1000px;
+	clear:both;
+}
+.events, .eventsRelated{
+	background: none;
+	-moz-box-shadow:none;
+	border:none;
+}
+.eventsRelated{
+	border: 1px gray solid;
+}
+
+hr.skinnyBar, hr.thickBar, hr.dashed{
+	display: none;
+}
+
+span.eCatBoxes{
+	background: none;
+	text-shadow: none;
+}
+
+table.eventsTable{
+	border:.4px solid gray;
+	width:90%;
+}
+table.eventsTable tr.tableHeadings th{
+}
+table.eventsTable tr.altrow{
+	background: rgb(251, 251, 251);
+}

@@ -1,0 +1,78 @@
+/*
+Name: FIU-CAL - Front UI - General Stylesheet for IE
+Description: General styles for FIU CAL's front end
+Version: 1.0
+Author: Fabian Alcantara
+*/
+
+body{
+	font-family:Times;
+}
+h1, h2, h3, h4, h5, h6{
+	
+	/* For IE 8 */
+/*	 -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#787878')"; */
+	 /* For IE 5.5 - 7 */
+/*	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#787878');
+	filter: glow(color=#ffff00,strength=3);*/
+	font-weight:bold;
+	font-family:Times;
+	/*-ms-filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, color=#787878, positive=1); /* IE v.7+ */ 
+	/*filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, color=#787878, positive=1); /* IE v.6 }*/
+	/*zoom:1;*/ /* IE6 Fixture */ 
+}
+
+/* List Items */
+
+a.date-picker-control:link, a.date-picker-control:visited{
+	margin-top:4px;
+	margin-left:-4px !important;
+}
+
+.calChooser span{
+	padding:0 4px;
+}
+
+.customBox{
+	border: 3px solid #34567F;
+	top:-35px;
+}
+
+.calChooser .submitBtn{
+		margin-left:20px;
+		margin-top:4px;
+	}
+	
+a.button-in-notyet{
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB)";
+}
+
+.popDate{
+	border-top:1px solid #556E90;
+	
+}
+.catBoxDept{
+	padding-left: 0px;
+	padding-right:0px;
+}
+input.searchBox{
+	font-size:1.5em;
+}
+.boxes:visited{
+	color:white;
+}
+.featureSummary{
+		left:350px !important;
+	}
+
+
+
+/*
+	The following zoom:1 rule is specifically for IE6 + IE7.
+	Move to separate stylesheet if invalid CSS is a problem.
+*/
+* html .clearfix,
+*:first-child+html .clearfix {
+	zoom: 1;
+}

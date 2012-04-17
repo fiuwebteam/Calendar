@@ -1,0 +1,107 @@
+/*
+Name: 960 Grid System with Vertical Rhythm Style
+Description: stylesheet to give a vertical rhythm to any page -> 
+inspired by (http://24ways.org/2006/compose-to-a-vertical-rhythm).
+Version: 1.0
+Author: Fabian Alcantara
+updated: 06-21-2010
+----------------------------------------------------------------------------------------------------*/
+/*
+Vertical Rhythm in play
+  font size for px to em: font-size (px) of heading / base font-size (which is currently 12px) = em font size
+  
+  line height for headings: font-size of heading (px or em) / base line-height (px or em) = 
+  
+  line-height (calculate with same metrics i.e., em / em)
+*/  
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+    font-size: 75%; /*changing to 12 px as default base font (origial is browser default font size 16px) */
+    
+    
+    font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;
+    line-height: 1.5em; /*set to 18px */
+
+}
+
+html>body{
+	font-size:12px;
+}
+
+
+a:focus {
+	outline: 1px dotted;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+p{
+	font-size: 1em; /* 12px */ 
+	line-height: 1.5em; /* 18px */ 
+	margin: 0 0 1.5em 0; 
+}
+
+
+
+h1 {
+	/*font-size: 25px;*/
+	/*em by default size of 12px*/ 
+	font-size: 2.08em;
+	line-height: 1.389em;
+	margin-bottom: 1.389em;
+	margin-top: 1.389em;
+}
+
+h2 {
+	/*font-size: 23px;*/
+	/*em by default base font size of 12px*/
+	font-size: 1.917em;
+	line-height: 1.27em;
+	margin-top: 1.917em;
+	margin-bottom: 0.639em;
+
+}
+
+h3 {
+	/*font-size: 21px;*/
+	/*em by default base font size of 12px*/
+	font-size: 1.75em;
+	line-height: 1.167em;
+	margin-top: 1.167em;
+	margin-bottom: 1.167em;
+}
+
+h4 {
+	/*font-size: 19px;*/
+	/*em by default base font size of 12px*/
+	font-size:1.583em;
+	line-height: 1.056em;
+	margin-top: 1.056em;
+	margin-bottom: 1.056em;
+}
+
+h5 {
+	/*font-size: 17px;*/
+	/*em by default base font size of 12px*/
+	font-size: 1.417em;
+	line-height: 0.667em;
+	margin-top: 0.667em;
+	margin-bottom: 0.667em;
+}
+
+h6 {
+	/*font-size: 15px;*/
+	/*em by default base font size of 12px*/
+	font-size: 1.25em;
+	line-height: 0.833em;
+	margin-top:0.833em;
+	margin-bottom:0.833em;
+}

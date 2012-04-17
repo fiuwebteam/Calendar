@@ -1,0 +1,273 @@
+/*
+Name: Vertical Rhythm Style
+Description: stylesheet to give a vertical rhythm to any page -> 
+inspired by (http://24ways.org/2006/compose-to-a-vertical-rhythm).
+Version: 1.0
+Author: Fabian Alcantara
+updated: 06-21-2010
+*/
+
+.addMargins{
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+.addMarginTop{margin-top:1.5em;}
+
+
+.addMarginsHalf{
+	margin-top:0.75em;
+	margin-bottom:0.75em;
+}
+
+.vMarginTop_0{margin-top:.375em;}
+.vMarginTop_1{margin-top: 0.75em;}
+.vMarginTop_2{margin-top: 1.5em;}
+.vMarginTop_3{margin-top: 2.25em;}
+.vMarginTop_4{margin-top: 3em;}
+.vMarginTop_5{margin-top: 3.75em;}
+.vMarginTop_6{margin-top: 4.5em;}
+.vMarginTop_7{margin-top: 5.25em;}
+
+.vMarginBottom_1{margin-bottom: 0.75em;}
+.vMarginBottom_2{margin-bottom: 1.5em}
+.vMarginBottom_3{margin-bottom: 2.25em;}
+.vMarginBottom_4{margin-bottom: 3.0em;}
+.vMarginBottom_5{margin-bottom: 3.75em;}
+.vMarginBottom_6{margin-bottom:4.5em;}
+.vMarginBottom_7{margin-bottom: 5.25em;}
+
+.vPaddingTop_0{
+	padding-top:0.375em;
+}
+.vPaddingTop_1{
+	padding-top:0.75em;
+}
+.vPaddingTop_2{
+	padding-top:1.5em;
+}
+.vPaddingTop_3{
+	padding-top:2.25em;
+}
+.vPaddingTop_4{
+	padding-top:3.0em;
+}
+.vPaddingTop_5{
+	padding-top:3.375em;
+}
+.vPaddingTop_6{
+	padding-top:3.75em;
+}
+.vPaddingTop_7{
+	padding-top: 4.5em;
+}
+.vPaddingTop_8{
+	padding-top: 5.25em;
+}
+.vPaddingTop_9{
+	padding-top: 6em;
+}
+.vPaddingTop_10{
+	padding-top: 6.375em;
+}
+.vPaddingTop_11{
+	padding-top: 6.75em;
+}
+.vPaddingTop_12{
+	padding-top: 7.125em;
+}
+.vPaddingTop_13{
+	padding-top: 7.5em;
+}
+.vPaddingTop_14{
+	padding-top: 7.875em;
+}
+.vPaddingTop_15{
+	padding-top: 8.25em;
+}
+.vPaddingTop_16{
+	padding-top: 8.625em;
+}
+.vPaddingTop_16{
+	padding-top: 9em;
+}
+.vPaddingTop_16{
+	padding-top: 9.375em;
+}
+.vPaddingTop_17{
+	padding-top: 9.75em;
+}
+.vPaddingTop_18{
+	padding-top: 10.125em;
+}
+.vPaddingTop_19{
+	padding-top: 10.5em;
+}
+
+
+.vPaddingBottom_0{
+	padding-bottom:0.375em;
+}
+.vPaddingBottom_1{
+	padding-bottom:0.75em;
+}
+.vPaddingBottom_2{
+	padding-bottom:1.5em;
+}
+.vPaddingBottom_3{
+	padding-bottom:2.25em;
+}
+.vPaddingBottom_4{
+	padding-bottom: 3.0em;
+}
+.vPaddingBottom_5{
+	padding-bottom: 3.375em;
+}
+.vPaddingBottom_6{
+	padding-bottom: 4.125em;
+}
+.vPaddingBottom_7{
+	padding-bottom: 4.5em;
+}
+.vPaddingBottom_8{
+	padding-bottom: 5.25em;
+}
+.vPaddingBottom_9{
+	padding-bottom: 6em;
+}
+.vPaddingBottom_10{
+	padding-bottom: 6.375em;
+}
+.vPaddingBottom_11{
+	padding-bottom: 6.75em;
+}
+.vPaddingBottom_12{
+	padding-bottom: 7.125em;
+}
+.vPaddingBottom_13{
+	padding-bottom: 7.5em;
+}
+.vPaddingBottom_14{
+	padding-bottom: 7.875em;
+}
+.vPaddingBottom_15{
+	padding-bottom: 8.25em;
+}
+.vPaddingBottom_16{
+	padding-bottom: 8.625em;
+}
+.vPaddingBottom_16{
+	padding-bottom: 9em;
+}
+.vPaddingBottom_16{
+	padding-bottom: 9.375em;
+}
+.vPaddingBottom_17{
+	padding-bottom: 9.75em;
+}
+.vPaddingBottom_18{
+	padding-bottom: 10.125em;
+}
+.vPaddingBottom_19{
+	padding-bottom: 10.5em;
+}
+
+
+.hPad_1{
+	padding: 0px 5px;
+}
+
+
+.padLeft_1{
+	padding-left:5px;
+}
+
+
+.hMargins_1{
+	margin-left:5px; 
+	margin-right:5px;
+}
+.hMarginLeft_1{
+	margin-left:5px;
+}
+
+.addMargins{
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+.addMarginTop{margin-top:1.5em;}
+.addMarginBottom{margin-top:1.5em;}
+
+
+
+/*Custom Spaces 
+-------------------------------------------------------------------------------------------------------
+
+.vMarginTop_3a{
+	margin-top: 2.10em;
+}
+
+.input_TopMargin_0{
+	margin-top:1.1em;
+}
+.littlePush_0{
+	left:10px;
+}
+.littlePush_1{
+	left:15px;
+}
+.littlePush_2{
+	left:20px;
+}
+.littlePush_3{
+	left:25px;
+}
+.littlePush_4{
+	left:30px;
+}
+.littlePush_5{
+	left:35px
+}
+
+
+
+
+.prefix_0{
+	margin-left: 10px;
+}
+.prefix_1a{
+	margin-left:22px;
+}
+
+
+
+
+
+.padding_0{padding-left:18px;}
+.padding_1{
+	padding-left:22px;
+}
+.padding_2{
+	padding-left:25px;
+}
+.vNegMargin_0{
+	margin-top: -8px;
+}
+.vNegMargin_1{
+	margin-top: -16px;
+}
+.vNegMargin_2{
+	margin-top:-24px;
+}
+.vNegMargin_3{
+	margin-top:-28px;
+}
+
+
+.negMarginTop_0{
+	 margin-top: -8px; 
+}
+.negMarginTop_1{
+ 	margin-top: -72px;
+}
+/*
+-------------------------------------------------------------------------------------------------------*/

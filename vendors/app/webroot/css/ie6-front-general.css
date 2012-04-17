@@ -1,0 +1,353 @@
+/*
+Name: FIU-CAL - Front UI - General Stylesheet for IE6
+Description: General styles for FIU CAL's front end
+Version: 1.0
+Author: Fabian Alcantara
+*/
+
+body{
+	background-image: url("../img/fiu-cal-texture.gif");
+	background-repeat: repeat-x repeat-y;
+	
+}
+a.backBtn{
+	background-image: none;
+	background-color:#3F5F86 !important;
+}
+#container{
+	overflow: hidden;
+	
+}
+.catBox{
+	width: 450px;
+}
+
+
+.button{
+	background: none;
+}
+
+.submitBtn{
+	background: #113969;
+}
+
+.registerLink{
+	
+}
+
+.heading_row{
+	position: relative;
+}
+.boxes{
+	background: none;
+	
+}
+.interface-cal{
+	height: 200px;
+}
+
+.calButton_on, .calButton_off, .eCatBoxes{
+	background-image: none;
+	background:none;
+}
+.calButton_on{
+	background:#1F406D;
+}
+
+.customBox{
+	margin-left:-40px;
+	margin-top:2.25em;
+
+}
+
+a:active{
+	position:static;
+	top:0;
+}
+
+.events dt{
+	float:left;
+	width:50px;
+	padding:0;
+}
+.events dd{
+	width:400px;
+}
+
+.eventsRelated	{
+	width:150px;
+	padding:0;
+	margin:0;
+	height:200px;
+}
+
+/* Buttons */
+  /* Category Buttons
+  --------------------------*/
+  
+	#gobtn{
+		background: #113969;		
+	}
+	.categoryOff_0, #all_off,
+		.categoryOff_0:visited, .categoryOn_0:visited, #all_off:visited{
+		background: #818181;
+	}
+		.categoryOff_0:hover, #all_off:hover{
+			background: #919090;
+		}
+		
+		
+		
+	.categoryOn_0, #all_on{
+		background:gray;
+	}
+	
+	/* Academics Button
+	--------------------*/
+	#academics_off, .categoryOff_1,
+		.categoryOff_1:visited{
+  		color:#d3230c;
+  		background: none;
+  	}
+		#academic_off:hover, .categoryOff_1:hover{
+  			color:white;
+  			background:#d3230c;/*#27578f;*/
+  		}
+  		
+  	#academics_on, .categoryOn_1,
+  		#academics_on:visited, .categoryOn_1:visited{
+  		
+		background:#d3230c;
+		
+		
+	}
+  		#academics_on:hover, .categoryOn_1:hover{
+  			color:white;
+  			background:#b12411; 
+  			
+  		}
+  		
+  	
+  		
+	
+	/* Alumni Button
+	--------------------*/
+	#alumni_off, .categoryOff_2,
+		.categoryOff_2:visited{
+		
+		background: none;
+	}	
+		#alumni_off:hover, .categoryOff_2:hover{
+			background:#6a3426;
+		}
+	
+	#alumni_on, .categoryOn_2,
+		#alumni_on:visited, .categoryOn_2:visited{
+		background:#6a3426;
+		}
+		#alumni_on:hover, .categoryOn_2:hover{
+			background: #53271b;
+		}
+	
+	
+	/* Arts Button
+	--------------------*/
+	#arts_off, .categoryOff_3,
+		.categoryOff_3:visited{
+	
+		background: none;
+	
+	}
+		#arts_off:hover, .categoryOff_3:hover{
+			background: #5300b0;
+		}
+
+	
+	#arts_on, .categoryOn_3, #arts_on:visited, .categoryOn_3:visited{	
+		background:#5300b0;
+	}
+	#arts_on:hover, .categoryOn_3:hover{
+		background:#450191;
+	}
+		
+		
+	
+	/* Athletics Button
+	--------------------*/
+	#athletics_off, .categoryOff_4,
+		.categoryOff_4:visited{
+		
+		background:none;
+	}
+		#athletics_off:hover, .categoryOff_4:hover{
+			
+			background:#e84c00;
+			
+		}
+	
+	#athletics_on, .categoryOn_4,
+		#athletics_on:visited, .categoryOn_4:visited{
+		
+		background: #e84c00;
+	
+	}
+		#athletics_on:hover, .categoryOn_4{
+			background:#b53b00;
+		}
+		
+
+	
+	
+	/* Lectures Button
+	--------------------*/	
+	#lectures_off, .categoryOff_5,
+		.categoryOff_5:visited{
+		
+		background: none;
+	}
+		#lectures_off:hover, .categoryOff_5:hover{
+		 	
+			 background:#199701;
+			
+		}
+
+		
+	#lectures_on, .categoryOn_5,
+		#lectures_on:visited, .categoryOn_5:visited{
+			background: #199701;
+		}
+		#lectures_on:hover, .categoryOn_5:hover{
+			background:#126c00;
+		}
+
+	/* Student Button
+	--------------------*/		
+	#student_off, .categoryOff_6,
+		.categoryOff_6:visited{
+		
+		background: none;	
+	}
+		.categoryOff_6:hover{
+			background: #008fcb;
+			
+		}
+	
+	#student_on, .categoryOn_6,
+		#student_on:visited, .categoryOn_6:visited{
+			background: #008fcb;
+		}
+		#student_on:hover, .categoryOn_6:hover{
+			background: #016e9b; 
+		}
+	
+		
+	/* Faculty Button
+	--------------------*/	
+	#faculty_off, .categoryOff_7,
+		.categoryOff_7:visited{
+		
+		background: none;
+	}
+		#faculty_off:hover, .categoryOff_7:hover{
+			background: #ce179c;
+			
+		}
+	
+	#faculty_on, .categoryOn_7,
+		#faculty_on:visited, .categoryOn_7:visited{
+		background: #ce179c;
+	
+	}
+		#faculty_on:hover, .categoryOn_7:hover{
+			background:#8e106c;
+		}
+		
+	#academics_on, .categoryOn_1,
+  		#academics_on:visited, .categoryOn_1:visited{
+  			background:#d3230c !important;
+		
+		
+	}
+  		#academics_on:hover, .categoryOn_1:hover{
+  			background:#b12411; 
+  			color:white;
+  		}
+	
+	#alumni_on, .categoryOn_2,
+		#alumni_on:visited, .categoryOn_2:visited{
+		/*color:#6a3426;*/
+		color:white;
+		background:#6a3426 !important;
+		
+	}
+		#alumni_on:hover, .categoryOn_2:hover{
+			background: #53271b;
+		}	
+
+		
+	#arts_on, .categoryOn_3,
+		#arts_on:visited, .categoryOn_3:visited{
+		/*color: purple;*/
+		color:white;
+		background:#5300b0 !important;
+		
+	}
+		#arts_on:hover, .categoryOn_3:hover{background:#450191;}
+			
+
+	#athletics_on, .categoryOn_4,
+		#athletics_on:visited, .categoryOn_4:visited{
+		color:white;
+		background: #e84c00 !important;
+		
+	}
+		#athletics_on:hover, .categoryOn_4{
+			background:#b53b00;
+		}
+
+		
+	#lectures_on, .categoryOn_5, #lectures_on:visited, .categoryOn_5:visited{
+		background: #199701 !important;
+	}
+	
+	#lectures_on:hover, .categoryOn_5:hover{
+			background:#126c00;
+		}
+	
+	
+	#student_on, .categoryOn_6,
+		#student_on:visited, .categoryOn_6:visited{
+		/*color:#008fcb;*/
+		color:white;
+		background: #008fcb !important;
+
+	}
+		#student_on:hover, .categoryOn_6:hover{
+			background:#016e9b; 
+		}
+	
+		#faculty_on, .categoryOn_7,
+		#faculty_on:visited, .categoryOn_7:visited{
+		/*color:#ce179c;*/
+		color:white;
+		background: #ce179c !important;
+	}
+		#faculty_on:hover, .categoryOn_7:hover{
+			background:#8e106c;
+		}
+	
+.catBox{
+	width:500px !important;
+	position: relative;
+
+	
+}
+
+.catBoxDept{
+	padding-left: 130px;
+	width:10px;
+}
+.typeBox{
+	width:10px;
+	left:-100px;
+}
