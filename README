@@ -1,3 +1,26 @@
+Calendar installation
+
+To run this application you need to be familiar with MySQL and Cakephp. If you are not, please visit the following sites.
+
+http://cakephp.org/
+http://www.mysql.com/
+
+To install this application you need to run the calendar.sql file to populate the tables for the calendar and modify the database config file, found in app / config / database.php to the proper credentials and database.
+
+At this point, assuming your system is configured correctly for cakephp, the application should be running with a predefined user "Adminstrator" with the password "password". Please immediatly log in and change those.
+
+For a list of features this calendar supports, please visit the following page at: 
+
+http://calendar.fiu.edu/events/faq
+
+
+
+
+
+
+
+
+
 CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
 The Cake Software Foundation - promoting development related to CakePHP
